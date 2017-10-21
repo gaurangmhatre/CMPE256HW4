@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.apache.mahout:mahout-buildtools:0.7" type="repository">
+    <properties maven-id="org.apache.mahout:mahout-buildtools:0.7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/mahout/mahout-buildtools/0.7/mahout-buildtools-0.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
