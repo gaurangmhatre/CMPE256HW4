@@ -33,28 +33,31 @@ public class User {
     public static void main(String[] args) throws IOException, TasteException {
         // TODO Auto-generated method stub
         System.out.println("USER Based recommendation system");
-        DataModel model = new FileDataModel(new File("ratings-1.csv"));
+        //DataModel model = new FileDataModel(new File("ratings-1.csv")); //original file
+
+        DataModel model = new FileDataModel(new File("ratings-1_NormalizedSpecialCSV.csv"));// Normalized file
+
 		//UserSimilarity similarity = new PearsonCorrelationSimilarity(model);
 
 
 		//UserSimilarity similarity = new PearsonCorrelationSimilarity(model);
 		//UserSimilarity similarity = new LogLikelihoodSimilarity(model);
-		//UserSimilarity similarity = new TanimotoCoefficientSimilarity(model);
+		UserSimilarity similarity = new TanimotoCoefficientSimilarity(model);
 		//UserSimilarity similarity = new EuclideanDistanceSimilarity(model);
 		//UserSimilarity similarity = new GenericUserSimilarity(model);
-		UserSimilarity similarity = new SpearmanCorrelationSimilarity(model);
+		//UserSimilarity similarity = new SpearmanCorrelationSimilarity(model);
 
 
 		//UserNeighborhood neighborhood = new ThresholdUserNeighborhood(0.1, similarity, model);
 
-        int neighbours = 9;
+        int neighbours = 15;
         System.out.println( "Neighbours = "+neighbours);
         System.out.println( "Similarity = "+similarity.toString());
         UserNeighborhood neighborhood = new NearestNUserNeighborhood(neighbours, similarity, model);
 
 		final UserBasedRecommender recommender = new GenericUserBasedRecommender(model, neighborhood, similarity);
 
-		List<RecommendedItem> recommendations = recommender.recommend(200, 3);
+		List<RecommendedItem> recommendations = recommender.recommend(200, 3); ///200: Gaurang Mhatre
 		for (RecommendedItem recommendation : recommendations) {
 		  System.out.println("recommendation : "+recommendation);
 		}
@@ -77,7 +80,7 @@ public class User {
         System.out.println("RMSE: " + score);
 
         RecommenderIRStatsEvaluator statsEvaluator = new GenericRecommenderIRStatsEvaluator();
-        IRStatistics stats = statsEvaluator.evaluate(recommenderBuilder, null, model, null, 10, 4, 0.7); // evaluate precision recall at 10
+        IRStatistics stats = statsEvaluator.evaluate(recommenderBuilder, null, model, null, 10, 0.1, 0.7); // evaluate precision recall at 10 //0.1
 
         System.out.println("Precision: " + stats.getPrecision());
         System.out.println("Recall: " + stats.getRecall());

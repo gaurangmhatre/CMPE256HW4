@@ -1,0 +1,281 @@
+===================================================9 neighbours======================================================
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 9
+Similarity = PearsonCorrelationSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.53225726]
+recommendation : RecommendedItem[item:9, value:0.42827576]
+recommendation : RecommendedItem[item:13, value:0.34186494]
+RMSE: 0.9655725971366175
+Precision: 0.9472222222222222
+Recall: 0.9749999999999999
+F1 Score: 0.9609104046242773
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 9
+Similarity = EuclideanDistanceSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.65529835]
+recommendation : RecommendedItem[item:13, value:0.43909425]
+recommendation : RecommendedItem[item:6, value:0.37747148]
+RMSE: 0.9339353643999334
+Precision: 0.9296296296296296
+Recall: 0.9666666666666666
+F1 Score: 0.9477864583333333
+
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 9
+Similarity = TanimotoCoefficientSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv]]
+recommendation : RecommendedItem[item:1, value:-0.009752336]
+recommendation : RecommendedItem[item:17, value:-0.2536747]
+recommendation : RecommendedItem[item:13, value:-0.28286335]
+RMSE: 0.8968319755405074
+Precision: 0.9377777777777778
+Recall: 0.96
+F1 Score: 0.9487587822014052
+
+
+///---------------------------------------------------------
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 9
+Similarity = PearsonCorrelationSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:19, value:0.8995074]
+recommendation : RecommendedItem[item:4, value:0.49534464]
+recommendation : RecommendedItem[item:1, value:0.32969263]
+RMSE: 1.018602976212903
+Precision: 0.9377777777777778
+Recall: 0.96
+F1 Score: 0.9487587822014052
+
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 9
+Similarity = EuclideanDistanceSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:18, value:0.5812879]
+recommendation : RecommendedItem[item:4, value:0.38558814]
+recommendation : RecommendedItem[item:1, value:0.30293882]
+RMSE: 1.0875937195629608
+Precision: 0.9296296296296296
+Recall: 0.9666666666666666
+F1 Score: 0.9477864583333333
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 9
+Similarity = TanimotoCoefficientSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv]]
+recommendation : RecommendedItem[item:6, value:0.032383166]
+recommendation : RecommendedItem[item:13, value:0.029941224]
+recommendation : RecommendedItem[item:4, value:-0.01820745]
+RMSE: 1.0587105434340978
+Precision: 0.9333333333333333
+Recall: 0.9333333333333333
+F1 Score: 0.9333333333333333
+
+
+
+
+====================================================5 neighbours=============================================================
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 5
+Similarity = PearsonCorrelationSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.9292395]
+recommendation : RecommendedItem[item:18, value:0.7041235]
+recommendation : RecommendedItem[item:6, value:0.45276716]
+RMSE: 0.9359546365860212
+Precision: 0.9499999999999998
+Recall: 0.9499999999999998
+F1 Score: 0.9499999999999998
+
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 5
+Similarity = EuclideanDistanceSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.9293247]
+recommendation : RecommendedItem[item:6, value:0.44652012]
+recommendation : RecommendedItem[item:4, value:-1.4121293]
+RMSE: 0.8793499329604928
+Precision: 0.9472222222222223
+Recall: 0.975
+F1 Score: 0.9609104046242775
+
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 5
+Similarity = TanimotoCoefficientSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv]]
+recommendation : RecommendedItem[item:19, value:0.06538163]
+RMSE: 0.9091064380806181
+Precision: 0.9749999999999999
+Recall: 0.9749999999999999
+F1 Score: 0.9749999999999999
+
+
+///---------------------------------------------------------
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 5
+Similarity = PearsonCorrelationSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.86121124]
+recommendation : RecommendedItem[item:9, value:0.5656062]
+recommendation : RecommendedItem[item:4, value:-0.09169522]
+RMSE: 0.9971973091248973
+Precision: 0.9333333333333333
+Recall: 0.9333333333333333
+F1 Score: 0.9333333333333333
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 5
+Similarity = EuclideanDistanceSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.83411247]
+recommendation : RecommendedItem[item:4, value:0.61824447]
+recommendation : RecommendedItem[item:9, value:0.5599088]
+RMSE: 1.0887776076459952
+Precision: 0.96
+Recall: 0.96
+F1 Score: 0.96
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 5
+Similarity = TanimotoCoefficientSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv]]
+recommendation : RecommendedItem[item:4, value:1.5584908]
+recommendation : RecommendedItem[item:1, value:0.41558215]
+recommendation : RecommendedItem[item:9, value:0.22992094]
+RMSE: 1.0480835629517102
+Precision: 0.95
+Recall: 0.95
+F1 Score: 0.9500000000000001
+
+
+
+
+
+
+====================================================15 neighbours=============================================================
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 15
+Similarity = PearsonCorrelationSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.6658468]
+recommendation : RecommendedItem[item:9, value:0.27284494]
+recommendation : RecommendedItem[item:13, value:0.06276339]
+RMSE: 0.9195113236549196
+Precision: 0.96
+Recall: 0.96
+F1 Score: 0.96
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 15
+Similarity = EuclideanDistanceSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:1, value:0.6330185]
+recommendation : RecommendedItem[item:9, value:0.13598715]
+recommendation : RecommendedItem[item:13, value:0.039745234]
+RMSE: 0.9422709212335213
+Precision: 0.96
+Recall: 0.96
+F1 Score: 0.96
+
+USER Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 15
+Similarity = TanimotoCoefficientSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv]]
+recommendation : RecommendedItem[item:6, value:0.1034787]
+recommendation : RecommendedItem[item:9, value:-0.0687649]
+recommendation : RecommendedItem[item:19, value:-0.20879428]
+RMSE: 0.9445412510456292
+Precision: 0.9577777777777778
+Recall: 0.98
+F1 Score: 0.9687614678899082
+
+//---------------------------------------------------------------------------
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 15
+Similarity = PearsonCorrelationSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:19, value:0.3081536]
+recommendation : RecommendedItem[item:4, value:0.27302453]
+recommendation : RecommendedItem[item:9, value:0.263693]
+RMSE: 1.045907725398794
+Precision: 0.96
+Recall: 0.96
+F1 Score: 0.96
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 15
+Similarity = EuclideanDistanceSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv],inferrer:null]
+recommendation : RecommendedItem[item:13, value:0.86140937]
+recommendation : RecommendedItem[item:19, value:0.35212037]
+recommendation : RecommendedItem[item:9, value:0.34812844]
+RMSE: 1.083423846360032
+Precision: 0.9296296296296296
+Recall: 0.9666666666666666
+F1 Score: 0.9477864583333333
+
+
+ITEM Based recommendation system
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Neighbours = 15
+Similarity = TanimotoCoefficientSimilarity[dataModel:FileDataModel[dataFile:C:\Users\gaurangmhatre\IdeaProjects\CMPE256HW4\ratings-1_NormalizedSpecialCSV.csv]]
+recommendation : RecommendedItem[item:1, value:0.72828686]
+recommendation : RecommendedItem[item:9, value:0.24339986]
+recommendation : RecommendedItem[item:13, value:0.13259867]
+RMSE: 1.0638753597830592
+Precision: 0.9377777777777778
+Recall: 0.96
+F1 Score: 0.9487587822014052
